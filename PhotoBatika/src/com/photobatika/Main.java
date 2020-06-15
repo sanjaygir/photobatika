@@ -46,7 +46,7 @@ public class Main extends Application {
     	int g = (c >> 8) & 0xff;
     	int b = (c) & 0xff;
     	
-    	return (a << 24) | (g << 16) | (r << 8) | b;
+    	return (a << 24) | (g << 16) | (b << 8) | b;
     	
     	
     }
@@ -55,7 +55,7 @@ public class Main extends Application {
     
     public Scene createScene1() {
     
-    	Image image = new Image("apple.png");
+    	Image image = new Image("green.png");
         ImageView imageView = new ImageView();
         imageView.setImage(image);
     
@@ -112,7 +112,7 @@ public class Main extends Application {
     public Scene createScene2() {
  
 
-    	Image image = new Image("apple.png");
+    	Image image = new Image("green.png");
         ImageView imageView = new ImageView();
         imageView.setImage(image);
     
